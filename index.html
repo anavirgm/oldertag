@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLDERTAG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">OLDERTAG</h1>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <img src="https://64.media.tumblr.com/db8472cfbb89a155148003b053d5f3de/4d6d987e0cee7307-8e/s400x225/158142e8e876044a6191733a02f6ee5ac1643b58.gif"
+            alt="Hero Video">
+        <div class="hero-content">
+            <h2>OLDERTAG</h2>
+            <p>Vintage second-hand clothing</p>
+            <a href="#productos" class="btn">COMPRA AHORA</a>
+        </div>
+    </header>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Oldertag es una tienda en línea especializada en la venta de ropa de segunda mano con un estilo skater,
+            pensada para estudiantes universitarios que buscan opciones asequibles sin renunciar a la moda. Actualmente,
+            la tienda opera a través de Instagram, donde se exhiben las prendas disponibles y se interactúa directamente
+            con los clientes. A través de esta plataforma, se ofrece un catálogo de ropa cuidadosamente seleccionada,
+            asegurando piezas únicas y de calidad que se adaptan a un estilo de vida juvenil y activo.</p>
+        <!-- <a href="#contacto" class="btn">Contáctanos</a> -->
+    </section>
+
+
+
+    <section id="productos" class="products">
+        <h2>Nuestros Productos</h2>
+        <p>Descubre nuestras prendas únicas, cuidadosamente seleccionadas para ofrecerte estilo y comodidad. Cada una
+            tiene su propia historia y personalidad.</p>
+
+        <div class="product-grid">
+            <!-- Producto 1 -->
+            <div class="product-item">
+                <img src="/img/hoodnegro.jpg" alt="Producto 1">
+                <h3>Hoodie Negro</h3>
+                <p>Talla S <br>Precio: $25</p>
+                <a href="#" class="btn-shop">Ver más</a>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-item">
+                <img src="/img/overol.jpg" alt="Producto 2">
+                <h3>Overol Dickies</h3>
+                <p>Talla XL <br>Precio: $40</p>
+                <a href="#" class="btn-shop">Ver más</a>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-item">
+                <img src="/img/wilson.jpg" alt="Producto 3">
+                <h3>TrackPant Wilson</h3>
+                <p>Talla S <br>Precio: $20</p>
+                <a href="#" class="btn-shop">Ver más</a>
+            </div>
+
+            <div class="product-item">
+                <img src="/img/russel.jpg" alt="Producto 4">
+                <h3>Hoodie Russel</h3>
+                <p>Talla M <br>Precio: $25</p>
+                <a href="#" class="btn-shop">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Síguenos en Instagram para ver nuestro catálogo o envíanos un mensaje a través del siguiente formulario.</p>
+    
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tuemail@example.com" required>
+    
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <div class="logo">OLDERTAG</div>
+                    <p>Somos una tienda en línea que ofrece productos de alta calidad con envíos a nivel nacional.</p>
+                    <p>
+                        <a style="color: #9ca3af; margin: 0 8px; font-size: 1.875rem; cursor: pointer;" class="footer-icon" onclick="window.open('https://www.instagram.com/oldertag/', '_blank', 'noopener noreferrer')">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a style="color: #9ca3af; margin: 0 8px; font-size: 1.875rem; cursor: pointer;" class="footer-icon" onclick="window.open('https://x.com/tu_twitter', '_blank', 'noopener noreferrer')">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a style="color: #9ca3af; margin: 0 8px; font-size: 1.875rem; cursor: pointer;" class="footer-icon" onclick="window.open('https://github.com/tu_github', '_blank', 'noopener noreferrer')">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#"> Términos y condiciones</a></li>
+                        <li><a href="#"> Políticas de privacidad</a></li>
+                        <li><a href="#"> Preguntas Frecuentes (FAQ)</a></li>
+                        <li><a href="#"> Uso de Datos</a></li>
+                        <li><a href="#"> Política de Reembolso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Atención al Cliente</h3>
+                    <a>+58 424-6720472</a>
+                    <h3>Ubícanos</h3>
+                    <p>C.C Gran Bazar</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Oldertag. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Obtener el navbar
+        const navbar = document.querySelector('.navbar');
+
+        // Función para cambiar el fondo del navbar
+        window.onscroll = function () {
+            if (window.scrollY > 0) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        };
+    </script>
+
+</body>
+
+</html>
