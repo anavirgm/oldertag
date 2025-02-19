@@ -320,6 +320,7 @@ background-color: #8a4511;
 
 
 
+/* *************************************** VALORES ***************************************** */
     #valores {
         background: url('https://i.pinimg.com/originals/14/f4/35/14f435eaaf8d107cca5055ce150eaf47.gif') no-repeat center center/cover;
         padding: 5rem 2rem;
@@ -383,7 +384,7 @@ background-color: #8a4511;
 
 /* *************************************** CONTACT ***************************************** */
 .contact {
-    background: url('https://i.pinimg.com/originals/14/f4/35/14f435eaaf8d107cca5055ce150eaf47.gif') no-repeat center center/cover;
+    background: url('https://64.media.tumblr.com/db8472cfbb89a155148003b053d5f3de/4d6d987e0cee7307-8e/s400x225/158142e8e876044a6191733a02f6ee5ac1643b58.gif') no-repeat center center/cover;
         padding: 5rem 2rem;
         text-align: center;
         color: white;
@@ -478,7 +479,7 @@ background-color: #8a4511;
 /* *************************************** FOOTER ***************************************** */
 .footer {
     position: relative;
-    background: url('https://64.media.tumblr.com/db8472cfbb89a155148003b053d5f3de/4d6d987e0cee7307-8e/s400x225/158142e8e876044a6191733a02f6ee5ac1643b58.gif') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/originals/14/f4/35/14f435eaaf8d107cca5055ce150eaf47.gif') no-repeat center center/cover;
     color: #fff;
     padding: 40px 0;
     z-index: 1;
@@ -486,9 +487,7 @@ background-color: #8a4511;
 
 .footer-icon:hover {
     transform: scale(3.2);
-    /* Aumenta el tamaÃ±o del Ã­cono al pasar el cursor */
     filter: brightness(3.2);
-    /* Aumenta el brillo del Ã­cono al pasar el cursor */
   }
 
 .footer::before {
@@ -498,7 +497,7 @@ background-color: #8a4511;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Opacidad del fondo */
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
 
@@ -508,7 +507,7 @@ background-color: #8a4511;
     flex-wrap: wrap;
     padding: 20px;
     position: relative;
-    z-index: 2; /* Asegura que el contenido esté sobre el fondo */
+    z-index: 2; 
 }
 
 .footer-column {
